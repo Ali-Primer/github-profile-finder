@@ -8,7 +8,7 @@ const Search = ({ darkMode }: Search) => {
   return (
     <>
       <div
-        className={`w-full mt-3 px-2 py-3 rounded ${
+        className={`w-full mt-7 px-2 py-3 rounded ${
           darkMode ? "bg-[var(--dark-card-bg)] text-[var(--dark-text)]" : "bg-[var(--card-bg)] text-[var(--text)]"
         }`}
         style={{ boxShadow: "0px 20px 35px 8px rgba(0, 0, 0, 0.1)" }}
@@ -20,7 +20,7 @@ const Search = ({ darkMode }: Search) => {
             </div>
             <div className="w-full">
               <input
-                className={`border-0 outline-0 pl-2 text-sm w-full ${darkMode ? 'placeholder-white' : 'placeholder-[#697C9A]'}`}
+                className={`border-0 outline-0 pl-2 text-sm w-full placeholder-[#697C9A]`}
                 placeholder="Search Github username..."
                 name="searchInput"
                 id="searchInput"
