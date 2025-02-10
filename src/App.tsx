@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Header from "./components/Header";
+import Search from "./components/Search";
 
 function App() {
   const [isDarkMode, setIsDarkMode] = useState<boolean>(false);
@@ -16,6 +17,8 @@ function App() {
             darkMode={isDarkMode}
             toggleDarkMode={() => setIsDarkMode(!isDarkMode)}
           />
+
+          <Search darkMode={isDarkMode} />
         </div>
       </div>
     </>

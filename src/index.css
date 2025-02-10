@@ -9,6 +9,8 @@
   --dark-card-bg: #111111;
   --dark-text: #fafafa;
 
+  --card-shadows: shadow-[0px_20px_35px_8px_rgba(0,0,0,0.1)];
+
   --body-bg: #fafafa;
   --card-bg: #f5f5f5;
   --text: #212121;
